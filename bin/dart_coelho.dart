@@ -13,6 +13,7 @@ int main() {
 
     todos = jovens + adultos;
 
+    // A partir do 12º mês, a população de coelhos diminui 75%
     if (i >= 12) {
       todos = (todos * 0.25).toInt();
 
